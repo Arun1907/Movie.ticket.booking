@@ -1,0 +1,17 @@
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}

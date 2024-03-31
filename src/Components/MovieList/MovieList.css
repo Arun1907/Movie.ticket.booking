@@ -1,0 +1,35 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-left: 60px;
+    row-gap: 60px;
+}
+.heading,.subtitle{
+    padding-left: 50px;
+}
+.heading{
+    margin-bottom: 5px;
+}
+
+.show-btn{
+    padding: 10px 15px;
+    width: 150px;
+    right: 0;
+    border-radius: 5px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.sub-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hide-last .movie-card:nth-last-child(-n+2) {
+    display: none;
+  }
+

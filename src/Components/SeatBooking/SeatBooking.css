@@ -1,0 +1,119 @@
+  .booking-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .booking-container h2 {
+    margin-bottom: 20px;
+  }
+
+  .booking-container button {
+    padding: 8px 16px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-family: Arial, sans-serif;
+  }
+
+  .booking-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .booking-container button:disabled:hover {
+    background-color: #ccc;
+  }
+
+  .booking-container button:hover {
+    background-color: #0056b3;
+  }
+
+  .seat-selection {
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+    flex-direction: column;
+  }
+
+  .seat-selection h4 {
+    margin-bottom: 10px;
+  }
+
+  .seat-selection button {
+    margin-bottom: 5px;
+  }
+
+  .seat-row {
+    display: flex;
+    flex-direction: row;
+    /* background: yellow; */
+
+  }
+
+  .seat-row button {
+    margin: 2px;
+  }
+
+  .selected {
+    background-color: #17ff00;
+    color: white;
+  }
+
+  .selected:disabled {
+    background-color: #ccc;
+    color: white;
+  }
+
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    /* width: 25%; */
+    left: 0;
+    /* padding-top: 13%; */
+    /* border-right: 2px solid black; */
+}
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .header-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-btn > button {
+    padding: 10px 20px;
+    width: 300px;
+    color: black;
+    background: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 2px solid black; 
+    font-family: Arial, sans-serif;
+  }
+  
+  .header-btn > button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .header-btn > button.active:hover {
+    background-color: #0056b3;
+  }
+
+  .price-and-book{
+    display: flex;
+    justify-content: space-between;
+  }
+  

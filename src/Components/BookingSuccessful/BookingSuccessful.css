@@ -1,0 +1,18 @@
+.booking-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+   
+}
+.name-time{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.seats{
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}

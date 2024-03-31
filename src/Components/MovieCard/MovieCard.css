@@ -1,0 +1,12 @@
+.movie-card{
+    height: 450px;
+    width: 400px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.movie-img{
+    height: 300px;
+    width: 300px;
+}
+
